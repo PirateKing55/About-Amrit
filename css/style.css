@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}  
+
+h1{
+    margin: 50px auto 0 auto; /*auto-brings element at center within its container*/
+    font-family: 'Sacramento', cursive;
+    /*line-height: 2; ( 1- default, 2- double the default)*/
+    font-size: 562.5%; /*100%=16px=1em, 90px=562.5%*/
+    color:  #66BFBF;
+} 
+
+h2{
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color:  #66BFBF;
+    font-weight: bold; /* the boldness of the font, fontweight:bold; will set the fomt to bold*/
+} 
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a{
+    color: #EAF6F6;
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p{
+    margin-bottom: 60px;
+}
+
+.top-container{
+    background-color: #E4F9F5;
+    padding-top: 100px;
+    position: relative;/*absolute element always gets positioned relative to closest POSITIONED ancestor,
+                         if we dont position this div, then clouds will get positioned to body*/
+    text-align: center;/*text align, it affects all elements inside the block-level element that are
+                        either inline or inline-block elements. The property only affects the content
+                         inside the element to which it is applied, and not the element itself. 
+                         To center the element itself, the margin property can be used*/
+
+}
+
+
+.bottom-cloud{
+    position: absolute;
+    left: 500px;
+    bottom: 350px;
+    
+}
+.top-cloud{
+    position: absolute;
+    right: 500px;
+    top: 50px;
+}
+.myskill-txt{
+    margin: 50px auto 0px auto;
+}
+.skill-txt{
+    margin-top: 30px;
+}
+
+.skill-row{
+    display: inline-block;
+    width: 50%;
+
+    text-align: left;
+    line-height: 2;
+    padding-top: 30px;
+}
+
+.code-img{
+    width: 25%;
+    float: left; /*makes the element float in left of its container, makes text wrap arrounf img*/
+    /* clear: left; -. will work like anti float */
+    margin-right: 30px;
+}
+
+.pencil-img{
+    float: right;
+}
+
+.pencil-img{
+    width: 25%;
+}
+
+.amrit-pic{
+    margin-top: 50px;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    height: 0px;
+    border-color: grey;
+    border-width: 5px;
+    width: 3%;
+}
+
+.hello{
+    margin-top: 30px;
+}
+
+.get-in-touch{
+    margin-top: 50px;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    height: 100px;
+    padding-top: 75px;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-bottom: 50px;
+  }
+  
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .skills{
+    margin-bottom: 80px;
+  }
