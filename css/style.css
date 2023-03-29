@@ -38,6 +38,11 @@ p{
     margin-bottom: 60px;
 }
 
+.contact-txt{
+    width: 40%;
+    margin: 20px auto 60px auto;
+}
+
 .top-container{
     background-color: #E4F9F5;
     padding-top: 100px;
