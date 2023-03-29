@@ -154,6 +154,7 @@ hr{
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
+    transform: scale(1.06);
 }
 
 .skills{
