@@ -41,6 +41,7 @@ p{
 .contact-txt{
     width: 40%;
     margin: 20px auto 60px auto;
+    line-height: 2;
 }
 
 .top-container{
