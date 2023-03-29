@@ -58,13 +58,13 @@ p{
 
 .bottom-cloud{
     position: absolute;
-    left: 500px;
-    bottom: 350px;
+    left: 400px;
+    bottom: 300px;
     
 }
 .top-cloud{
     position: absolute;
-    right: 500px;
+    right: 450px;
     top: 50px;
 }
 .myskill-txt{
