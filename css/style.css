@@ -159,3 +159,7 @@ hr{
 .skills{
     margin-bottom: 80px;
 }
+
+.footer-link:hover{
+    transform: scale(1.15);
+}
