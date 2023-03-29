@@ -126,6 +126,8 @@ hr{
     padding-top: 75px;
 }
 
+/* go to css3buttongenerator for getting button code */
+
 .btn {
     background: #11CDD4;
     background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
@@ -136,13 +138,14 @@ hr{
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 17px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-  }
-  
+    margin-bottom: 50px;
+}
+
 .btn:hover {
     background: #30e3cb;
     background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -151,8 +154,8 @@ hr{
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
-  }
+}
 
-  .skills{
+.skills{
     margin-bottom: 80px;
-  }
+}
